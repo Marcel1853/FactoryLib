@@ -1,0 +1,11 @@
+{
+  "name": "FactoryLib",
+  "version": "0.2.1",
+  "title": "FactoryLib - Modding Utilities",
+  "author": "Marcel171297",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1"
+  ],
+  "description": "Utility library for prototype manipulation, GUI building, and common helpers. Replacement for LSlib, built for Factorio 2.1."
+}
