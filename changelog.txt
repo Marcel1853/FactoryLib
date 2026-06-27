@@ -1,7 +1,8 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.1
+Version: 0.2.2
 Date: 24. 06. 2026
   Bugfixes:
+    - Added missing FLib.utils.table.convertRGBA function (converts color values from 0-255 to 0-1 range).
     - Fixed getLocalisedUnit to return Factorio localised strings (tables) instead of attempting string concatenation on table values.
     - Rewrote GUI layout and runtime systems with own implementation providing full path-based element navigation, drag support, auto-centering, and tab management.
   Changes:

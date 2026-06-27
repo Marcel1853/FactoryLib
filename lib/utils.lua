@@ -72,6 +72,14 @@ function FLib.utils.table.areEqual(a, b)
   return true
 end
 
+--- Convert RGBA color values from 0-255 range to 0-1 range.
+function FLib.utils.table.convertRGBA(color)
+  for key, _ in pairs(color) do
+    color[key] = color[key] / 255
+  end
+  return color
+end
+
 function FLib.utils.table.orderedPairs(t, sortFunc)
   local keys = {}
   for k in pairs(t) do keys[#keys+1] = k end
